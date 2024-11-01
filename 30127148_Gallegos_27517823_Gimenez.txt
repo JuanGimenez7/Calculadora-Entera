@@ -1,0 +1,461 @@
+PROBLEMA #1 
+Ingrese las distancias entre cada par de ciudades (en minutos):
+Distancia de la ciudad 1 a la ciudad 2: 35
+Distancia de la ciudad 1 a la ciudad 3: 20
+Distancia de la ciudad 1 a la ciudad 4: 40
+Distancia de la ciudad 1 a la ciudad 5: 30
+Distancia de la ciudad 1 a la ciudad 6: 60
+Distancia de la ciudad 1 a la ciudad 7: 60
+Distancia de la ciudad 1 a la ciudad 8: 20
+Distancia de la ciudad 1 a la ciudad 9: 55
+Distancia de la ciudad 1 a la ciudad 10: 32
+Distancia de la ciudad 2 a la ciudad 1: 35
+Distancia de la ciudad 2 a la ciudad 3: 45
+Distancia de la ciudad 2 a la ciudad 4: 35
+Distancia de la ciudad 2 a la ciudad 5: 20
+Distancia de la ciudad 2 a la ciudad 6: 70
+Distancia de la ciudad 2 a la ciudad 7: 30
+Distancia de la ciudad 2 a la ciudad 8: 45
+Distancia de la ciudad 2 a la ciudad 9: 45
+Distancia de la ciudad 2 a la ciudad 10: 34
+Distancia de la ciudad 3 a la ciudad 1: 20
+Distancia de la ciudad 3 a la ciudad 2: 45
+Distancia de la ciudad 3 a la ciudad 4: 15
+Distancia de la ciudad 3 a la ciudad 5: 55
+Distancia de la ciudad 3 a la ciudad 6: 20
+Distancia de la ciudad 3 a la ciudad 7: 80
+Distancia de la ciudad 3 a la ciudad 8: 0
+Distancia de la ciudad 3 a la ciudad 9: 90
+Distancia de la ciudad 3 a la ciudad 10: 56
+Distancia de la ciudad 4 a la ciudad 1: 40
+Distancia de la ciudad 4 a la ciudad 2: 35
+Distancia de la ciudad 4 a la ciudad 3: 15
+Distancia de la ciudad 4 a la ciudad 5: 65
+Distancia de la ciudad 4 a la ciudad 6: 35
+Distancia de la ciudad 4 a la ciudad 7: 12
+Distancia de la ciudad 4 a la ciudad 8: 15
+Distancia de la ciudad 4 a la ciudad 9: 24
+Distancia de la ciudad 4 a la ciudad 10: 60
+Distancia de la ciudad 5 a la ciudad 1: 30
+Distancia de la ciudad 5 a la ciudad 2: 20
+Distancia de la ciudad 5 a la ciudad 3: 55
+Distancia de la ciudad 5 a la ciudad 4: 65
+Distancia de la ciudad 5 a la ciudad 6: 40
+Distancia de la ciudad 5 a la ciudad 7: 40
+Distancia de la ciudad 5 a la ciudad 8: 20
+Distancia de la ciudad 5 a la ciudad 9: 15
+Distancia de la ciudad 5 a la ciudad 10: 12
+Distancia de la ciudad 6 a la ciudad 1: 60
+Distancia de la ciudad 6 a la ciudad 2: 70
+Distancia de la ciudad 6 a la ciudad 3: 20
+Distancia de la ciudad 6 a la ciudad 4: 35
+Distancia de la ciudad 6 a la ciudad 5: 40
+Distancia de la ciudad 6 a la ciudad 7: 15
+Distancia de la ciudad 6 a la ciudad 8: 32
+Distancia de la ciudad 6 a la ciudad 9: 0
+Distancia de la ciudad 6 a la ciudad 10: 12
+Distancia de la ciudad 7 a la ciudad 1: 30
+Distancia de la ciudad 7 a la ciudad 2: 40
+Distancia de la ciudad 7 a la ciudad 3: 32
+Distancia de la ciudad 7 a la ciudad 4: 12
+Distancia de la ciudad 7 a la ciudad 5: 55
+Distancia de la ciudad 7 a la ciudad 6: 25
+Distancia de la ciudad 7 a la ciudad 8: 34
+Distancia de la ciudad 7 a la ciudad 9: 65
+Distancia de la ciudad 7 a la ciudad 10: 55
+Distancia de la ciudad 8 a la ciudad 1: 80
+Distancia de la ciudad 8 a la ciudad 2: 12
+Distancia de la ciudad 8 a la ciudad 3: 34
+Distancia de la ciudad 8 a la ciudad 4: 67
+Distancia de la ciudad 8 a la ciudad 5: 45
+Distancia de la ciudad 8 a la ciudad 6: 60
+Distancia de la ciudad 8 a la ciudad 7: 65
+Distancia de la ciudad 8 a la ciudad 9: 56
+Distancia de la ciudad 8 a la ciudad 10: 30
+Distancia de la ciudad 9 a la ciudad 1: 45
+Distancia de la ciudad 9 a la ciudad 2: 12
+Distancia de la ciudad 9 a la ciudad 3: 34
+Distancia de la ciudad 9 a la ciudad 4: 78
+Distancia de la ciudad 9 a la ciudad 5: 90
+Distancia de la ciudad 9 a la ciudad 6: 100
+Distancia de la ciudad 9 a la ciudad 7: 35
+Distancia de la ciudad 9 a la ciudad 8: 20
+Distancia de la ciudad 9 a la ciudad 10: 0
+Distancia de la ciudad 10 a la ciudad 1: 90
+Distancia de la ciudad 10 a la ciudad 2: 40
+Distancia de la ciudad 10 a la ciudad 3: 12
+Distancia de la ciudad 10 a la ciudad 4: 40
+Distancia de la ciudad 10 a la ciudad 5: 20
+Distancia de la ciudad 10 a la ciudad 6: 24
+Distancia de la ciudad 10 a la ciudad 7: 10
+Distancia de la ciudad 10 a la ciudad 8: 12
+Distancia de la ciudad 10 a la ciudad 9: 0
+Welcome to the CBC MILP Solver 
+Version: 2.10.3
+Build Date: Dec 15 2019
+
+command line - C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\Usuario\AppData\Local\Temp\a233e47df4044c72abb24ac2d74520de-pulp.mps -timeMode elapsed -branch -printingOptions all -solution C:\Users\Usuario\AppData\Local\Temp\a233e47df4044c72abb24ac2d74520de-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 15 COLUMNS
+At line 114 RHS
+At line 125 BOUNDS
+At line 136 ENDATA
+Problem MODEL has 10 rows, 10 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 1.5 - 0.00 seconds
+Cgl0004I processed model has 10 rows, 10 columns (10 integer (10 of which binary)) and 68 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 3 integers unsatisfied sum - 1.5
+Cbc0038I Pass   1: suminf.    1.50000 (3) obj. 1.5 iterations 1
+Cbc0038I Solution found of 3
+Cbc0038I Rounding solution of 2 is better than previous of 3
+
+Cbc0038I Before mini branch and bound, 7 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.01 seconds)
+Cbc0038I After 0.01 seconds - Feasibility pump exiting with objective of 2 - took 0.00 seconds 
+Cbc0012I Integer solution of 2 found by feasibility pump after 0 iterations and 0 nodes (0.01 seconds)
+Cbc0001I Search completed - best objective 2, took 0 iterations and 0 nodes (0.01 seconds)     
+Cbc0035I Maximum depth 0, 4 variables fixed on reduced cost
+Cuts at root node changed objective from 1.5 to 1.5
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+s (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                2.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.01
+Time (Wallclock seconds):       0.01
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.03   (Wallclock seconds):       0.03
+
+Estado de la solución: Optimal
+Ciudad 1: Sin estación
+Ciudad 2: Sin estación
+Ciudad 3: Estación
+Ciudad 4: Sin estación
+Ciudad 5: Sin estación
+Ciudad 6: Sin estación
+Ciudad 7: Sin estación
+Ciudad 8: Sin estación
+Ciudad 9: Sin estación
+Ciudad 10: Estación
+Número mínimo de estaciones necesarias: 2.0
+
+
+
+
+
+PROBLEMA #2
+Desea maximizar? (-1) o minimizar? (1): 1
+Introduzca el coeficiente de x de la funcion objetivo: -5
+Introduzca el coeficiente de y de la funcion objetivo: -8
+Introduzca el coeficiente de x de la primera restriccion: 1
+Introduzca el coeficiente de y de la primera restriccion: 1
+Introduzca el termino independiente de la primera restriccion: 6
+Introduzca el coeficiente de x de la segunda restriccion: 5
+Introduzca el coeficiente de y de la segunda restriccion: 9
+Introduzca el termino independiente de la segunda restriccion: 45
+Welcome to the CBC MILP Solver 
+Version: 2.10.3
+Build Date: Dec 15 2019
+
+command line - C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\Usuario\AppData\Local\Temp\06bbcbad859d4263af396849ff45939c-pulp.mps -timeMode elapsed -branch -printingOptions all -solution C:\Users\Usuario\AppData\Local\Temp\06bbcbad859d4263af396849ff45939c-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 7 COLUMNS
+At line 18 RHS
+At line 21 BOUNDS
+At line 24 ENDATA
+Problem MODEL has 2 rows, 2 columns and 4 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is -48 - 0.00 seconds
+Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+Cbc3007W No integer variables - nothing to do
+Cuts at root node changed objective from -48 to -1.79769e+308
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                -48.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.03   (Wallclock seconds):       0.03
+
+Estado de la solución: Optimal
+x = 0.0
+y = 6.0
+Valor óptimo de Z = -48.0
+
+
+Desea maximizar? (-1) o minimizar? (1): -1
+Introduzca el coeficiente de x de la funcion objetivo: 80
+Introduzca el coeficiente de y de la funcion objetivo: 45
+Introduzca el coeficiente de x de la primera restriccion: 1
+Introduzca el coeficiente de y de la primera restriccion: 1
+Introduzca el termino independiente de la primera restriccion: 7
+Introduzca el coeficiente de x de la segunda restriccion: 12
+Introduzca el coeficiente de y de la segunda restriccion: 5
+Introduzca el termino independiente de la segunda restriccion: 60
+Welcome to the CBC MILP Solver 
+Version: 2.10.3
+Build Date: Dec 15 2019
+
+command line - C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\Usuario\AppData\Local\Temp\8403f844cb9c445793fe09b84069f830-pulp.mps -max -timeMode elapsed -branch -printingOptions all -solution C:\Users\Usuario\AppData\Local\Temp\8403f844cb9c445793fe09b84069f830-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 7 COLUMNS
+At line 18 RHS
+At line 21 BOUNDS
+At line 24 ENDATA
+Problem MODEL has 2 rows, 2 columns and 4 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 510.588 - 0.00 seconds
+Cgl0004I processed model has 2 rows, 2 columns (2 integer (0 of which binary)) and 4 elements
+Cutoff increment increased from 1e-05 to 4.9999
+Cbc0012I Integer solution of -445 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0012I Integer solution of -490 found by DiveCoefficient after 1 iterations and 0 nodes (0.01 seconds)
+Cbc0013I At root node, 0 cuts changed objective from -510.58824 to -490 in 3 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 4 column cuts (4 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 1 row cuts average 1.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 1 row cuts average 1.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+Cbc0001I Search completed - best objective -490, took 1 iterations and 0 nodes (0.01 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -510.588 to -490
+Probing was tried 3 times and created 4 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 3 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 3 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+ZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                490.00000000
+Enumerated nodes:               0
+Total iterations:               1
+Time (CPU seconds):             0.02
+Time (Wallclock seconds):       0.01
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.03   (Wallclock seconds):       0.03
+
+Estado de la solución: Optimal
+x = 5.0
+y = 2.0
+Valor óptimo de Z = 490.0
+
+
+
+
+
+
+
+
+
+PROBLEMA #3
+
+Introduzca la cantidad de objetos: 6
+Introduzca el peso del objeto 1: 10
+Introduzca el peso del objeto 2: 20
+Introduzca el peso del objeto 3: 15
+Introduzca el peso del objeto 4: 25
+Introduzca el peso del objeto 5: 30
+Introduzca el peso del objeto 6: 12
+Introduzca el valor del objeto 1: 60
+Introduzca el valor del objeto 2: 100
+Introduzca el valor del objeto 3: 90
+Introduzca el valor del objeto 4: 120
+Introduzca el valor del objeto 5: 150
+Introduzca el valor del objeto 6: 80
+Introduzca la capacidad de la mochila: 50
+
+--- Paso 1: Crear el problema de maximización ---
+
+--- Paso 2: Definir las variables de decisión ---
+Variables de decisión definidas (0 = no seleccionado, 1 = seleccionado):
+x_1 -> Objeto 1
+x_2 -> Objeto 2
+x_3 -> Objeto 3
+x_4 -> Objeto 4
+x_5 -> Objeto 5
+x_6 -> Objeto 6
+
+--- Paso 3: Definir la función objetivo ---
+Función objetivo formulada: Maximizar el valor total de los objetos seleccionados.
+
+--- Paso 4: Definir la restricción de capacidad ---
+Restricción de capacidad formulada: La suma de los pesos no debe exceder 50.0 kg.
+
+--- Paso 5: Resolver el problema ---
+Welcome to the CBC MILP Solver
+Version: 2.10.3
+Build Date: Dec 15 2019
+
+command line - C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\Usuario\AppData\Local\Temp\5cb190ac4cf64506b00bd6eed572fccc-pulp.mps -max -timeMode elapsed -branch -printingOptions all -solution C:\Users\Usuario\AppData\Local\Temp\5cb190ac4cf64506b00bd6eed572fccc-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 6 COLUMNS
+At line 31 RHS
+At line 33 BOUNDS
+At line 40 ENDATA
+Problem MODEL has 1 rows, 6 columns and 6 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 295 - 0.00 seconds
+Cgl0004I processed model has 1 rows, 6 columns (6 integer (6 of which binary)) and 6 elements
+Cutoff increment increased from 1e-05 to 9.9999
+Cbc0038I Initial state - 1 integers unsatisfied sum - 0.433333
+Cbc0038I Solution found of -230
+Cbc0038I Before mini branch and bound, 5 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 1 rows 6 columns, reduced to 0 rows 0 columns
+Cbc0038I Mini branch and bound did not improve solution (0.01 seconds)
+Cbc0038I Round again with cutoff of -245.5
+Cbc0038I Pass   1: suminf.    0.10333 (1) obj. -245.5 iterations 1
+Cbc0038I Pass   2: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass   3: suminf.    0.43333 (1) obj. -295 iterations 0
+Cbc0038I Pass   4: suminf.    0.08000 (1) obj. -280.4 iterations 2
+Cbc0038I Pass   5: suminf.    0.49667 (1) obj. -245.5 iterations 2
+Cbc0038I Pass   6: suminf.    0.23333 (1) obj. -285 iterations 1
+Cbc0038I Pass   7: suminf.    0.10000 (1) obj. -285 iterations 1
+Cbc0038I Solution found of -270
+Cbc0038I Before mini branch and bound, 2 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 1 rows 6 columns, reduced to 1 rows 2 columns
+Cbc0038I Mini branch and bound did not improve solution (0.01 seconds)
+Cbc0038I Round again with cutoff of -283
+Cbc0038I Reduced cost fixing fixed 2 variables on major pass 3
+Cbc0038I Pass   8: suminf.    0.35333 (1) obj. -283 iterations 0
+Cbc0038I Pass   9: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass  10: suminf.    0.35000 (1) obj. -295 iterations 1
+Cbc0038I Pass  11: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  12: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  13: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  14: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  15: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  16: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  17: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  18: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  19: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  20: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  21: suminf.    0.08667 (1) obj. -283 iterations 3
+Cbc0038I Pass  22: suminf.    0.10000 (1) obj. -285 iterations 1
+Cbc0038I Pass  23: suminf.    0.08667 (1) obj. -283 iterations 1
+Cbc0038I Pass  24: suminf.    0.24667 (1) obj. -283 iterations 1
+Cbc0038I Pass  25: suminf.    0.23333 (1) obj. -285 iterations 1
+Cbc0038I Pass  26: suminf.    0.24667 (1) obj. -283 iterations 1
+Cbc0038I Pass  27: suminf.    0.23333 (1) obj. -285 iterations 1
+Cbc0038I Pass  28: suminf.    0.24667 (1) obj. -283 iterations 1
+Cbc0038I Pass  29: suminf.    0.83334 (2) obj. -283 iterations 2
+Cbc0038I Pass  30: suminf.    0.83334 (2) obj. -283 iterations 0
+Cbc0038I Pass  31: suminf.    0.43333 (1) obj. -295 iterations 2
+Cbc0038I Pass  32: suminf.    0.35333 (1) obj. -283 iterations 1
+Cbc0038I Pass  33: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass  34: suminf.    0.35333 (1) obj. -283 iterations 1
+Cbc0038I Pass  35: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass  36: suminf.    0.48000 (1) obj. -292.4 iterations 1
+Cbc0038I Pass  37: suminf.    0.48000 (1) obj. -292.4 iterations 0
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 2 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 1 rows 6 columns, reduced to 1 rows 2 columns
+Cbc0038I Mini branch and bound did not improve solution (0.02 seconds)
+Cbc0038I After 0.02 seconds - Feasibility pump exiting with objective of -270 - took 0.02 seconds
+Cbc0012I Integer solution of -270 found by feasibility pump after 0 iterations and 0 nodes (0.02 seconds)
+Cbc0038I Full problem 1 rows 6 columns, reduced to 1 rows 2 columns
+Cbc0006I The LP relaxation is infeasible or too expensive
+Cbc0013I At root node, 0 cuts changed objective from -295 to -295 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 1 row cuts average 0.0 elements, 1 column cuts (1 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (ZeroHalf) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0001I Search completed - best objective -270, took 0 iterations and 0 nodes (0.03 seconds)
+Cbc0035I Maximum depth 0, 1 variables fixed on reduced cost
+Cuts at root node changed objective from -295 to -295
+Probing was tried 1 times and created 2 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                270.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.04
+Time (Wallclock seconds):       0.04
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
+
+Estado de la solución: Optimal
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
+
+Estado de la solución: Optimal
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
+
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
+
+Estado de la solución: Optimal
+
+Estado de la solución: Optimal
+Estado de la solución: Optimal
+
+
+--- Paso 6: Mostrar los objetos seleccionados ---
+--- Paso 6: Mostrar los objetos seleccionados ---
+Objeto 1: No seleccionado (Peso: 10.0, Valor: 60.0)
+Objeto 1: No seleccionado (Peso: 10.0, Valor: 60.0)
+Objeto 2: Seleccionado (Peso: 20.0, Valor: 100.0)
+Objeto 2: Seleccionado (Peso: 20.0, Valor: 100.0)
+Objeto 3: Seleccionado (Peso: 15.0, Valor: 90.0)
+Objeto 4: No seleccionado (Peso: 25.0, Valor: 120.0)
+Objeto 5: No seleccionado (Peso: 30.0, Valor: 150.0)
+Objeto 6: Seleccionado (Peso: 12.0, Valor: 80.0)
+
+--- Paso 7: Resultados finales ---
+Valor total en la mochila: 270.0
+Peso total en la mochila: 47.0
